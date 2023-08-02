@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #414141;
+}
+
+/* header */
+/* header-nav_desktop */
+.nav_desktop {
+    height: 64px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+.logo img {
+    height: 32px;
+}
+.nav_menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nav_menu ul a {
+    text-decoration: none;
+    color: #414141;
+    padding: 8px;
+}
+#academy {
+    color: gray;
+}
+/* header-nav_mobile */
+.nav_mobile ul {
+    display: none;
+    list-style-type: none;
+    border: 1px solid red;
+    height: 64px;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav_mobile ul img {
+    border: 1px solid red;
+}
+/* main */
+/* main-hero */
+/* main-info */
+/* main-course */
+/* main-thesis */
+/* footer */
