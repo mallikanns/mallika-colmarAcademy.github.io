@@ -11,9 +11,8 @@ body {
 /* header */
 /* header-nav_desktop */
 .nav_desktop {
-    height: 64px;
-    border: 1px solid red;
     display: flex;
+    height: 64px;
     justify-content: space-between;
     align-items: center;
     padding-left: 24px;
@@ -47,7 +46,6 @@ body {
 .nav_mobile ul {
     display: none;
     list-style-type: none;
-    border: 1px solid red;
     height: 64px;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +58,40 @@ body {
     border: 1px solid red;
 }
 /* main */
+main {
+    position: relative;
+    top: 64px;
+}
 /* main-hero */
+.hero {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+}
+.hero_img {
+    width: 60%;
+}
+.hero_img img {
+    width: 100%;
+}
+.hero_text {
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+.hero_text h4 {
+    margin: 24px 0;
+}
+.hero_text button {
+    background-color: #414141;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+}
 /* main-info */
 /* main-course */
 /* main-thesis */
